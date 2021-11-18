@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+@media (min-width:1200px){
+    body{
+        background-color: rgb(10, 25, 47);
+        margin: 20px 65px 0 65px;
+        scroll-behavior: smooth;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header div{
+        display: flex;
+        align-items: center;
+    }
+    .resume{
+        border: 1px solid rgb(0, 255, 187);
+        color: rgb(113, 122, 120);
+        background-color: rgb(10, 25, 47);
+        padding: .8rem;
+        cursor: pointer;
+    }
+    h1{
+        color: rgb(215, 223, 221);
+        font-family: 'Fira Sans', sans-serif;
+    }
+    header div a{
+        color: rgb(113, 122, 120);
+        margin-right: 20px;
+        font-family: 'Fira Sans', sans-serif;
+        text-decoration: none;
+    }
+    header div a:hover{
+        color: rgb(0, 255, 187);
+    }
+    span{
+        color: rgb(0, 255, 187);
+        font-family: 'Fira Sans', sans-serif;
+    }
+    /* parte main */
+    main{
+        margin: 0 170px;
+    }
+    main h1{
+        font-size: 5rem;
+        line-height: 2rem;
+    }
+    p{
+        color: rgb(113, 122, 120) ;
+        max-width: 40rem; 
+        font-family: 'Fira Sans', sans-serif;
+
+    }
+    .my-name{
+        line-height: 1rem;
+    }
+    .h1{
+        color: rgb(113, 122, 120);
+    }
+    main img{
+        width: 3rem;
+        padding: 5px;
+        margin: 0 10px 0 0;
+        color: white;
+        background-color: white;
+        border-radius: 50px;
+    }
+    /* title entre as sections */
+    .title-section{
+        color: rgb(215, 223, 221);
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 2rem; 
+        margin: 200px 200px 20px 200px;
+    }
+    /* section about me */
+    .about_me{
+        margin: 20px 200px 20px 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .about_me p{
+        max-width: 25rem;
+    }
+    .about_me img{
+        width: 18rem;
+        border-radius: 10px;
+        opacity: 0.3;
+    }
+    .about_me img:hover{
+        opacity: 1;
+    }
+    .about_me ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about_me li{
+        color: rgb(0, 255, 187);
+        list-style-type: none;
+    }
+
+    /* work */
+    .work{
+        margin: 20px 200px 200px 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .work img{
+        width: 36rem;
+        border-radius: 10px;
+    }
+    .work a{
+        text-decoration: none;
+        color: rgb(0, 255, 187);
+    }
+    .work div em{
+        color: rgb(0, 255, 187);
+    }
+    .work div h3{
+    font-size: 2rem;
+    margin-top: -25px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    }
+    .work div p{
+        width: 400px; 
+        height:50px;
+        padding: 20px;
+        right: 180px;
+        position: absolute;
+        border-radius: 10px;
+        background-color: rgb(17, 34, 64);
+    }
+    /* work2 */
+    .work-2{
+        margin: 20px 200px 200px 200px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .work-2 img{
+        width: 36rem;
+        border-radius: 10px;
+    }
+    .work-2 a{
+        text-decoration: none;
+        color: rgb(0, 255, 187);
+    }
+    .work-2 div em{
+        color: rgb(0, 255, 187);
+    }
+    .work-2 div h3{
+    font-size: 2rem;
+    margin-top: -45px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    }
+    .work-2 div p{
+        width: 400px; 
+        height:50px;
+        padding: 20px;
+        position: absolute;
+        border-radius: 10px;
+        background-color: rgb(17, 34, 64);
+    }
+    /* outros title */
+    .outros-h2{
+        text-align: center;
+        color: rgb(215, 223, 221);
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 2rem; 
+        margin: 200px 200px 20px 200px;
+    }
+    /* outros section */
+    .outros{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 20px 20px 0px 20px;
+    }
+    .outros div{
+        width: 30rem;
+        background-color:  rgb(17, 34, 64);
+        border-radius: 10px;
+        height: 14rem;
+        padding: 20px;
+        margin: 0 0 30px 0;
+        
+    }
+    .outros div img{
+        width: 4rem;
+    }
+    .outros div h3{
+        color: white;
+        font-family: 'Fira Sans', sans-serif;
+        text-align: center;
+    }
+    .outros div h3:hover{
+        color: rgb(0, 255, 187);
+    }
+    .outros div ul{
+        display: flex;
+        justify-content: space-around;
+        color:  rgb(113, 122, 120);
+    }
+    .outros div ul li{
+        list-style-type: none;
+        color: rgb(0, 255, 187);
+        font-family: 'Fira Sans', sans-serif;
+    }
+    /* encontrar  */
+    .contato{
+        margin: 0 0 200px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contato p{
+        font-size: 3rem;
+        margin: auto;
+    }
+    .contato button{
+        padding: 1rem;
+        color: white;
+        background-color:rgb(17, 34, 64);
+        border: solid 1px white;
+        cursor: pointer;
+    }
+}
+
+/* tablet */
+@media(min-width:480px) and (max-width:1200px){
+    body{
+        background-color: rgb(10, 25, 47);
+        margin: 20px 0 40px 0;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        margin:0 20px 0 20px ;
+        justify-content: space-between;
+    }
+    header div{
+        display: flex;
+        align-items: center;
+    }
+    .resume{
+        border: 1px solid rgb(0, 255, 187);
+        color: rgb(113, 122, 120);
+        background-color: rgb(10, 25, 47);
+        padding: .8rem;
+        cursor: pointer;
+    }
+    h1{
+        color: rgb(215, 223, 221);
+        font-family: 'Fira Sans', sans-serif;
+    }
+    header div a{
+        color: rgb(113, 122, 120);
+        margin-right: 20px;
+        font-family: 'Fira Sans', sans-serif;
+        text-decoration: none;
+    }
+    header div a:hover{
+        color: rgb(0, 255, 187);
+    }
+    span{
+        color: rgb(0, 255, 187);
+        font-family: 'Fira Sans', sans-serif;
+    }
+    /* parte main */
+    main{
+        margin: 0 100px;
+    }
+    main span{
+       margin: 20px 65px 0 65px;
+    }
+    main h1{
+        font-size: 3rem;
+        line-height: 2rem;
+    }
+    p{
+        color: rgb(113, 122, 120) ;
+        max-width: 40rem; 
+        font-family: 'Fira Sans', sans-serif;
+    
+    }
+    .my-name{
+        line-height: 1rem;
+    }
+    .h1{
+        color: rgb(113, 122, 120);
+    }
+    main img{
+        width: 2rem;
+        padding: 5px;
+        margin: 0 10px 0 0;
+        color: white;
+        background-color: white;
+        border-radius: 50px;
+    }
+    /* title entre as sections */
+    .title-section{
+        color: rgb(215, 223, 221);
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 2rem; 
+        margin: 200px 0 0 0;
+        text-align: center;
+    }
+    /* section about me */
+    .about_me{
+        margin: 20px 0 0 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about_me p{
+        margin: 0 20px 0 20px ;
+       display: flex;
+       align-items: center;
+      
+      
+    }
+    .about_me img{
+        width: 18rem;
+        border-radius: 10px;
+        opacity: 0.3;
+    }
+    .about_me img:hover{
+        opacity: 1;
+    }
+    .about_me ul{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .about_me li{
+         color: rgb(0, 255, 187);
+         list-style-type: none;
+    }
+    
+    /* work */
+    .work{
+        margin: 20px 0 0 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .work img{
+        width: 60%;
+        border-radius: 10px;
+    }
+    .work a{
+        text-decoration: none;
+        color: rgb(0, 255, 187);
+    }
+    .work div em{
+        color: rgb(0, 255, 187);
+    }
+    .work div h3{
+       font-size: 2rem;
+       margin: 20px;
+       color: white;
+       font-family: 'Fira Sans', sans-serif;
+    }
+    .work div p{ 
+        height:50px;
+        padding: 20px;
+        max-width: 20rem;
+        border-radius: 10px;
+        background-color: rgb(17, 34, 64);
+    }
+    /* work2 */
+    .work-2{
+        margin: 20px 0 0 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .work-2 img{
+        width: 60%;
+        border-radius: 10px;
+    }
+    .work-2 a{
+        text-decoration: none;
+        color: rgb(0, 255, 187);
+    }
+    .work-2 div em{
+        color: rgb(0, 255, 187);
+    }
+    .work-2 div h3{
+       font-size: 2rem;
+       margin: 20px;
+       color: white;
+       font-family: 'Fira Sans', sans-serif;
+    }
+    .work-2 div p{
+        height:50px;
+        padding: 20px;
+        max-width: 15rem;
+        border-radius: 10px;
+        background-color: rgb(17, 34, 64);
+    }
+    /* outros title */
+    .outros-h2{
+        text-align: center;
+        color: rgb(215, 223, 221);
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 2rem; 
+        margin: 200px 0 0 0;
+    }
+    /* outros section */
+    .outros{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px 0 0 0;
+    }
+    .outros div{
+        width: 60%;
+        background-color:  rgb(17, 34, 64);
+        border-radius: 10px;
+        height: 14rem;
+        padding: 20px;
+        margin: 0 0 30px 0;
+        
+    }
+    .outros div p{
+        text-align: center;
+    }
+    .outros div img{
+        width: 4rem;
+    }
+    .outros div h3{
+        color: white;
+        font-family: 'Fira Sans', sans-serif;
+        text-align: center;
+    }
+    .outros div h3:hover{
+        color: rgb(0, 255, 187);
+    }
+    .outros div ul{
+        display: flex;
+        justify-content: space-around;
+        color:  rgb(113, 122, 120);
+    }
+    .outros div ul li{
+        list-style-type: none;
+        color: rgb(0, 255, 187);
+        font-family: 'Fira Sans', sans-serif;
+    }
+    /* encontrar  */
+    .contato{
+        margin: 0 0 200px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contato p{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .contato button{
+        padding: 1rem;
+        margin: 20px;
+        color: white;
+        background-color:rgb(17, 34, 64);
+        border: solid 1px white;
+        cursor: pointer;
+    }
+}
